@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/down_bg" >
+    
+    <ImageButton
+        android:id="@+id/head_add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/add"/>
+    
+    <ImageButton 
+        android:id="@+id/head_set_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@id/head_add_button"
+        android:layout_toLeftOf="@id/head_add_button"
+        android:src="@drawable/set"/>
+    <TextView 
+        android:id="@+id/head_text"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@id/head_add_button"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:textColor="#666666"
+        android:paddingLeft="5dp"
+        android:text="Blog"/>
+    
+
+    
+
+</RelativeLayout>
